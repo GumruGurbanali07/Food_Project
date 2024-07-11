@@ -1,4 +1,5 @@
 using Food_Project.Data;
+using Food_Project.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
 	options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
+
+builder.Services.AddScoped<CategoryRepository>();
+builder.Services.AddScoped<FoodRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
