@@ -26,11 +26,11 @@
             <td>@item.Price</td>
             <td>@item.Stock</td>
             <td>@item.Category.CategoryName</td>
-            <td><a href="#" class="btn btn-danger">Delete</a></td>
+            <td><a href="/Food/DeleteFood/@item.FoodId" class="btn btn-danger">Delete</a></td>
             <td><a href="#" class="btn btn-success">Update</a></td>
             <td><a href="#" class="btn btn-info">Details</a></td>
         </tr>
     }
 </table>
-<a href="#" class="btn btn-primary">New Food</a>
+<a href="/Food/AddFood" class="btn btn-primary">New Food</a>
 

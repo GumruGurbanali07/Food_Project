@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Food_Project.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240709151345_Foodmig")]
-    partial class Foodmig
+    [Migration("20240712140707_FoodCategory")]
+    partial class FoodCategory
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -71,16 +71,8 @@ namespace Food_Project.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
-                    b.Property<string>("ShortDescription")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("Stock")
                         .HasColumnType("int");
-
-                    b.Property<string>("ThumbNailImageUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("FoodId");
 
