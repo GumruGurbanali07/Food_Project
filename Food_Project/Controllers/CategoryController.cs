@@ -1,4 +1,5 @@
-﻿using Food_Project.Models;
+﻿using Food_Project.DTOs;
+using Food_Project.Models;
 using Food_Project.Repository;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,9 +25,18 @@ namespace Food_Project.Controllers
 			return View();
 		}
 		[HttpPost]
-		public IActionResult AddCategory(Category catgeory)
+		public IActionResult AddCategory(AddCategoryDto categoryDto)
 		{
-			_categoryRepository.AddT(catgeory);
+			if(!ModelState.IsValid)
+			{               
+                return View(categoryDto); 
+            }
+			Category category = new Category()
+			{
+				CategoryName = categoryDto.CategoryName,
+				CategoryDescription = categoryDto.CategoryDescription,
+			};
+			_categoryRepository.AddT(category);
 			return RedirectToAction("Index");
 		}
 	}

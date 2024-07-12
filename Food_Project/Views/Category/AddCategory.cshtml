@@ -1,4 +1,4 @@
-﻿@model Food_Project.Models.Category
+﻿@model Food_Project.DTOs.AddCategoryDto
 @{
     ViewData["Title"] = "AddCategory";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,11 +8,17 @@
 <br />
 @using (Html.BeginForm("AddCategory", "Category", FormMethod.Post))
 {
+    <div class="form-group">
     @Html.LabelFor(x=>x.CategoryName);
     @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x=>x.CategoryName,"", new{@style="color:red"})
+    </div>
     <br />
+    <div class="form-group">
     @Html.LabelFor(x=>x.CategoryDescription);
     @Html.TextBoxFor(x=>x.CategoryDescription, new {@class="form-control"})
+    @Html.ValidationMessageFor(x => x.CategoryDescription, "", new { @style = "color:red" })
+    </div>
     <br />
-    <button class="btn btn-primary">Save</button>
+    <button type="submit" class="btn btn-primary">Save</button>
 }
