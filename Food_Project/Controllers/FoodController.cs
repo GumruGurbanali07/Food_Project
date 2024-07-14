@@ -4,6 +4,7 @@ using Food_Project.Models;
 using Food_Project.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using X.PagedList.Extensions;
 
 namespace Food_Project.Controllers
 {
@@ -17,9 +18,9 @@ namespace Food_Project.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int page=1)
         {
-            var item = _foodRepository.TList("Category");
+            var item = _foodRepository.TList("Category").ToPagedList(page,3);
             return View(item);
         }
         [HttpGet]
@@ -62,11 +63,55 @@ namespace Food_Project.Controllers
             _foodRepository.AddT(food1);
             return RedirectToAction("Index");
         }
+        public IActionResult GetFood(int id)
+        {
+            var item=_foodRepository.GetT(id);
+            if (item == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            List<SelectListItem> items = (from x in _context.Categories.ToList()
+                                          select new SelectListItem
+                                          {
+                                              Text = x.CategoryName,
+                                              Value = x.CategoryId.ToString()
+                                          }).ToList();
+            ViewBag.v1 = items;
+
+            Food food = new Food()
+            {
+                FoodId =item.FoodId,
+                CategoryId= item.CategoryId,
+                Name = item.Name,
+                LongDescription = item.LongDescription,
+                Price = item.Price,
+                Stock = item.Stock,
+                ImageUrl = item.ImageUrl,
+                
+            };
+            return View(food);
+        }
+        [HttpPost]
+        public IActionResult UpdateFood(Food food)
+        {
+            var item = _foodRepository.GetT(food.FoodId);
+            item.Stock = food.Stock;
+            item.ImageUrl = food.ImageUrl;
+            item.Price = food.Price;
+            item.Name=food.Name;
+            item.LongDescription = food.LongDescription;
+            item.CategoryId= food.CategoryId;
+            _foodRepository.UpdateT(item);
+            return RedirectToAction("Index");
+        }
+
         public IActionResult DeleteFood(int id)
         {
             var item = _context.Foods.Find(id);
             _foodRepository.DeleteT(item);
             return RedirectToAction("Index");
         }
+
     }
 }
