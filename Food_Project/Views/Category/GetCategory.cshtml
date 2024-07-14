@@ -1,0 +1,30 @@
+﻿@model Food_Project.Models.Category
+@{
+    ViewData["Title"] = "Update Category";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Update Category Page</h1>
+<br />
+@using (Html.BeginForm("UpdateCategory", "Category", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(x => x.CategoryId);
+        @Html.TextBoxFor(x => x.CategoryId, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.CategoryId, "", new { @style = "color:red" })
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(x => x.CategoryName);
+        @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.CategoryName, "", new { @style = "color:red" })
+    </div>
+    <br />
+    <div class="form-group">
+        @Html.LabelFor(x => x.CategoryDescription);
+        @Html.TextBoxFor(x => x.CategoryDescription, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.CategoryDescription, "", new { @style = "color:red" })
+    </div>
+    <br />
+    <button type="submit" class="btn btn-warning">Update</button>
+}

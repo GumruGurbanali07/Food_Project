@@ -39,5 +39,33 @@ namespace Food_Project.Controllers
 			_categoryRepository.AddT(category);
 			return RedirectToAction("Index");
 		}
+		public IActionResult GetCategory(int id)
+		{
+			var result = _categoryRepository.GetT(id);
+			Category ct = new Category()
+			{
+				CategoryId=result.CategoryId, 
+				CategoryName=result.CategoryName,
+				CategoryDescription=result.CategoryDescription,
+			};
+			return View(ct);
+		}
+		public IActionResult UpdateCategory(Category category)
+		{
+			var item = _categoryRepository.GetT(category.CategoryId);
+			item.CategoryId = category.CategoryId;
+			item.CategoryName = category.CategoryName;
+			item.CategoryDescription = category.CategoryDescription;
+			item.Status = category.Status;
+			_categoryRepository.UpdateT(item);
+			return RedirectToAction("Index");
+		}
+		public IActionResult DeleteCategory(int id)
+		{
+			var item=_categoryRepository.GetT(id);
+			item.Status = false;
+			_categoryRepository.UpdateT(item);
+			return RedirectToAction("Index");
+		}
 	}
 }

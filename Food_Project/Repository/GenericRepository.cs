@@ -33,9 +33,9 @@ namespace Food_Project.Repository
 			_context.Set<T>().Update(p);
 			_context.SaveChanges();
 		}
-		public void GetT(int id)
+		public T GetT(int id)
 		{
-			_context.Set<T>().Find(id);
+			return _context.Set<T>().Find(id);
 
 		}
 		public List<T> TList(string p)
