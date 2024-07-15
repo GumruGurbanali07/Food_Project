@@ -5,6 +5,174 @@
       "PackagePath": "staticwebassets\\Food_Project.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\.gitattributes",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\.gitattributes"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\Yeni Metin Belgesi.txt",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\Yeni Metin Belgesi.txt"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\css\\clndr.css",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\css\\clndr.css"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\css\\jqvmap.css",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\css\\jqvmap.css"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\css\\nav.css",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\css\\nav.css"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\css\\style.css",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\ar2.png",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\ar2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\arrows.png",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\arrows.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\avatar.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\avatar1.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\avatar1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\avatar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\img-sprite.png",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\img-sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\into.png",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\into.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\into1.png",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\into1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\logo.png",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\pp.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\pp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\pp0.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\pp0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\pp01.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\pp01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\settings.png",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\settings.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\images\\tick-mark.png",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\images\\tick-mark.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\index.html",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\Chart1.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\Chart1.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\clndr.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\clndr.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\easyResponsiveTabs.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\easyResponsiveTabs.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\jquery.easydropdown.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\jquery.easydropdown.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\jquery.nicescroll.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\jquery.nicescroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\jquery.vmap.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\jquery.vmap.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\jquery.vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\jquery.vmap.sampledata.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\main.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\moment-2.2.1.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\moment-2.2.1.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\site.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\js\\underscore-min.js",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\js\\underscore-min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\resimler\\book1.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\resimler\\book1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\resimler\\book2.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\resimler\\book2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\resimler\\book3.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\resimler\\book3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\resimler\\book4.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\resimler\\book4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\resimler\\book5.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\resimler\\book5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\resimler\\img1.jpg",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\resimler\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\CoreTemplateWeb2-master\\w3layouts-License.txt",
+      "PackagePath": "staticwebassets\\CoreTemplateWeb2-master\\w3layouts-License.txt"
+    },
+    {
       "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
