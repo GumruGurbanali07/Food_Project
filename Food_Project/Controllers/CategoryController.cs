@@ -14,8 +14,12 @@ namespace Food_Project.Controllers
 			_categoryRepository = categoryRepository;
 		}
 
-		public IActionResult Index()
+		public IActionResult Index(string p)
 		{
+			if (!string.IsNullOrEmpty(p))
+			{
+				return View(_categoryRepository.List(x => x.CategoryName == p));
+			}
 			var item = _categoryRepository.ListT();
 			return View(item);
 		}

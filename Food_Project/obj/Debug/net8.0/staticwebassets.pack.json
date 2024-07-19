@@ -1377,6 +1377,18 @@
       "PackagePath": "staticwebassets\\web\\images\\close_1.png"
     },
     {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\web\\images\\food1.png",
+      "PackagePath": "staticwebassets\\web\\images\\food1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\web\\images\\food2.png",
+      "PackagePath": "staticwebassets\\web\\images\\food2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\web\\images\\food3.png",
+      "PackagePath": "staticwebassets\\web\\images\\food3.png"
+    },
+    {
       "Id": "C:\\Users\\Sheki-S\\source\\repos\\Food_Project\\Food_Project\\wwwroot\\web\\images\\img-sp.png",
       "PackagePath": "staticwebassets\\web\\images\\img-sp.png"
     },

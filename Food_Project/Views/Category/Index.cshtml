@@ -5,6 +5,16 @@
 }
 <h2>Category</h2>
 <br />
+
+@using (Html.BeginForm())
+{
+    
+    <p>
+        Food Name:@Html.TextBox("p")
+        <input type="submit" value="Find" />
+    </p>
+}
+
 <table class="table table-bordered">
     <tr>
         <th>Category Id</th>
