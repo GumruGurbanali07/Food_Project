@@ -10,5 +10,10 @@ namespace Food_Project.Controllers
 		{
 			return View();
 		}
+		[AllowAnonymous]
+		public IActionResult CategoryDetails()
+		{
+			return View();
+		}
 	}
 }

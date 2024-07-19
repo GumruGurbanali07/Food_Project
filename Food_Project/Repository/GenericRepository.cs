@@ -1,6 +1,7 @@
 ﻿using Food_Project.Data;
 using Food_Project.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace Food_Project.Repository
 {
@@ -42,6 +43,10 @@ namespace Food_Project.Repository
 		{
 			var item= _context.Set<T>().Include(p).ToList();
 			return item;
+		}
+		public List<T> List(Expression<Func<T, bool>> expression)
+		{
+			return _context.Set<T>().Where(expression).ToList();
 		}
 	}
 }
